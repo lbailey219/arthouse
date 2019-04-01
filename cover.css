@@ -20,6 +20,7 @@ a:hover {
 }
 
 
+
 /*
  * Base structure
  */
@@ -43,17 +44,20 @@ body {
   background-size: cover;
   background-position: center top;
   color: black;
-  font-style: italic;
-  
 }
 .homepage h1{
-
   font-style: normal;
+  font-weight: bolder;
+  background: rgba(0, 0, 0, .0) !important;
 
 }
-.cover-container {
-  max-width: 42em;
+.square h1{
+  background: rgba(0, 0, 0, .0) !important;
+
 }
+/* .cover-container {
+  max-width: 42em;
+} */
 
 
 
@@ -109,6 +113,16 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+}
+.inner-cover h1{
+  margin-top: 250px;
+}
+.homepage h2{
+  font-size: 70px;
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
 }
 
 
