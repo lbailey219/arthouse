@@ -1,7 +1,18 @@
-.homepage {
-  b
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(13,13,22,1) 19%, rgba(29,30,31,1) 46%, rgba(40,40,43,1) 52%);
+.homepage{
+  background-color:  #686669;
 
-background-image: -ms-linear-gradient(left, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1b1b1b 100%;
+
+}
+h1{
+
+   color: blue;
+}
+.col-md-3 img{
+  background-size: cover;
+width: 550px;
+  height: 700px;
+
+
+  }
+
 }
