@@ -3,7 +3,7 @@
 }
 
 
-.col-9 h1{
+.col-sm-9 h1{
   font-family: 'Bungee Inline', cursive;
   font-weight: bolder;
   color: black;
@@ -12,7 +12,7 @@
   padding-top: 120px;
 }
 
-.col-9 h2{
+.col-sm-9 h2{
   font-family: 'Bungee Inline', cursive;
   text-shadow: 2px 2px 4px #000000;
   text-shadow: 1px 1px 2px green, 0 0 25px white, 0 0 5px white;
@@ -22,7 +22,7 @@
   padding-top: 70px;
   color: black;
 }
-.col-3 img{
+.col-sm-3 img{
   background: linear-gradient( to bottom, hsla(0, 0%, 27%, 0.6), rgba(0, 0, 0,.9) );
   background-color: #0d0c14;
   width: 550px;
@@ -46,10 +46,7 @@
   margin-top: 40px;
   margin-left: 70px;
 }
-.border{
-  background-color: grey;
-  position: relative;
-}
+
 .bio {
   background-color: white;
 }
@@ -66,4 +63,30 @@
   background-size: cover;
   height: 650px;
   width: 100%;
+}
+.flag img{
+
+  height: 500px;
+  width: 600px;
+}
+.footer h1{
+text-align: center;
+font-family: 'Bungee Inline', cursive;
+font-size: 70px;
+}
+.info p{
+  padding-top: 100px;
+  font-size: 50px;
+}
+i{
+  font-size: 50px;
+  padding: 5px;
+}
+.info a{
+  font-size: 25px;
+  color: black;
+}
+.bot-sec{
+  background-color: #CCCCCC;
+  text-align: center;
 }
