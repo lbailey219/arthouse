@@ -26,7 +26,7 @@
             <div class="col-sm-9 animated fadeInDown">
               <h1>THE ART HOUSE 33</h1>
               <h2>CUSTOM FIGURES<br> & PAINTINGS</h2>
-              <button id="order--here" type="button" class="btn btn-secondary btn-lg"  class="button" href="#">
+              <button id="order--here" type="button" class="btn btn-secondary btn-lg"  class="button" href="#" data-toggle="modal" data-target="#exampleModal">
               Order Here
               </button>
             </div>
@@ -113,33 +113,27 @@
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Zipcode</label>
-                  <input type="zipcode" class="form-control" name="zipcode" id="modal--zipcode" placeholder="Zip@example"/>
-                </div>
-                <div class="form-group">
                   <label for="exampleFormControlInput1">Phone</label>
                   <input type="tel" class="form-control" id="modal--phone" name="phone" placeholder="tel@example.com">
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Painting Size</label>
-                  <select class="form-control" name="type">
+                  <select class="form-control" name="Size">
+                    <option>None</option>
                     <option>36"x36"</option>
                     <option>18"x24"</option>
-                    <option>12"x16</option>
+                    <option>12"x16"</option>
                   </select>
                 </div>
                 <div class="form-group">
                   <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio1" name="frequency" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio1">One time</label>
-                  </div>
-                  <div class="custom-control custom-radio">
-                    <input type="radio" id="customRadio2" name="frequency" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadio2">Bi-weekly</label>
+                    <input type="radio" id="customRadio1" name="figure" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Custom Figure</label>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Additional Notes</label>
+                  <label for="exampleFormControlTextarea1">Additional Notes</label><br>
+                  <span>All figures for custom orders must be shipped by customer</span>
                   <textarea class="form-control" name="notes" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
               </div>
